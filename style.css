@@ -1,0 +1,229 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.main{
+    min-height: 100vh;
+    background: url('img/bg.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.bgUsers{
+   
+    min-height: 100vh;
+    background-color: #141414;
+}
+
+.bgBlack{
+    background-color: rgba(0, 0, 0,0.6);
+    height: 100%;
+    width: 100%;
+}
+
+.screen{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.head{
+    width: 100%;
+    height: 30px;
+    background: #074bc9;
+}
+
+header{
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 0px 80px;
+  z-index: 99;
+}
+
+.wrapper{
+    width: 450px;
+    background: rgba(0, 0, 0,0.8);
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: #fff;
+    padding: 55px 70px;
+    font-family: inherit;
+}
+
+.wrapper h1{
+    font-size: 30px;
+    font-weight: 800;
+}
+  
+.wrapper .inputBox{
+    position: relative;
+    width: 100%;
+    height: 55px;
+    margin: 20px 0;
+    border: 0.3px solid #ADACAA;
+    border-radius: 4px;
+
+}
+
+.inputBox input{
+    width: 100%;
+    height: 100%;
+    background: rgba(32, 32, 32, 0.5);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 20px 45px 20px 20px ;
+    color: #ffffff;
+}
+
+.inputBox input::placeholder{
+    color: #ADACAA;
+}
+
+.wrapper .forgot{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.forgot a{
+    text-decoration: none;
+    color: white;
+}
+
+.forgot a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .rememberForgot{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: 10px 0px;
+    font-weight: 500;
+}
+
+.rememberForgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
+}
+
+.wrapper .btn{
+    width: 100%;
+    height: 40px;
+    background: #E50914;
+    border-radius: 4px;
+    border: 2px solid #E50914;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.wrapper .registerLink{
+    font-size: 15px;
+    margin: 20px 0;
+}
+
+.registerLink p a{
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.registerLink p a:hover{
+    text-decoration: underline;
+}
+
+.wrapper .protect{
+    font-size: 12px;
+    margin: 20px 0;
+    color: #ADACAA;
+}
+
+.protect p a{
+    color: #074bc9;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.protect a:hover{
+    text-decoration: underline;
+}
+
+/*Aqui começa a pág de usuários*/
+
+.userBox{
+    width: 100%;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.userBox h3{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 500;
+}
+
+.userScreen{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 100px;
+    width: 100%;
+}
+
+.userScreen a{
+    width: 130px;
+    cursor: pointer;
+    margin: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.userScreen a img{
+    border: 3px solid #1e1e1e;
+    border-radius: 1px;
+    width: 130px;
+    height: 130px;
+    background-color: blueviolet;
+}
+
+.userScreen a img:hover{
+    border-color: #fff;
+}
+
+.userScreen a p{
+    color: #fff;
+    font-size: 12px;
+    padding: 10px 0px;
+    text-decoration: none;
+}
+
+.userBox button{
+    background: transparent;
+    border: 1px solid #fff;
+    border-radius: 1px;
+    margin-top: 40px;
+    padding: 5px 25px;
+    color: #fff;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+
+
